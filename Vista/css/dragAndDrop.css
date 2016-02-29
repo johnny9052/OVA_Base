@@ -1,0 +1,54 @@
+/* Contenedor del puzzle*/
+#contenedorPuzzle {
+    margin: 20px auto;
+    width: 900px;
+    background: rgba(20,20,20,0.8);
+    box-shadow: 0px 0px 10px  2px #777;
+    color: #ccc;
+    padding: 10px 50px 50px 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* Puzzle */
+#contenedorPiezas{
+    background: greenyellow;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-left: 20px;
+
+    box-shadow: 0px 0px 10px  2px #d0eb6a;
+}
+
+#puzzle {
+    /*    background: #d0eb6a;*/    
+    width: 400px;
+    height: 450px;
+    float: right;
+    margin-right: 20px;
+    /*box-shadow: 0px 0px 10px  2px #e7931a;*/
+}
+.contenedorPieza {
+    border: 1px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    /*background-color: #CB1919;*/    
+}
+
+#contenedorPuzzle img {
+    float: left;
+    padding: 1px;
+    width: 198px;
+    height: 198px;
+}
+
+
+.fondoJuego01{
+    background-image: url(../imagenes/juegos/biologia/juego01/prueba.png);  
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 500px;
+}
